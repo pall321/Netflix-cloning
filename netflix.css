@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;  
+
+} 
+body{ 
+    background-color: black;
+    color: white;
+}
+.header{
+    background-image: url("background\ image\ of\ netflix.jpg");
+    
+    height:100vh;
+    color: beige; 
+    background-size:cover ; 
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}  
+nav{ 
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+} 
+.logo{ 
+    width:150px; 
+    cursor:pointer;
+}
+#button1{align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding:10px;
+
+    ;
+}#button1-image{
+    width: 3px;
+    margin: left;
+}
+nav button{ 
+    border:0; background-color: red;
+    color:white; 
+    padding:10px 20px; 
+    font-size: 12px; 
+    border-radius: 4px;
+    margin-left:10px; 
+    outline: 0;
+    cursor: pointer;
+
+}
+.content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+}.content h1{
+font-size: 60px;
+font-weight: 600;
+line-height: 70px;
+max-width: 650px;
+}.content h3{
+    font-weight: 400px;
+    margin-bottom: 20px;
+
+}
+.enjoy img{
+    float: right;
+    width: 500px;
+    margin: 00px
+    
+}
+.enjoy {
+    margin: 70px;
+}
+.enjoy h1,h3 {
+    text-align:center;
+    margin: 15px;
+    font-size: 30px;
+padding: 5px;
+}.download img{
+    float: left;
+    width: 400px;
+    margin: 20px
+   
+}
+.download h1,h4{
+    
+    margin: 15px;
+    
+padding: 2px;  
+
+    
+} 
+.download{ 
+    font-size: 30px;
+} 
+.vji img{ 
+    float:right; 
+    margin: 40px; 
+    padding: left; 
+    width:400px;
+
+} 
+.dhj { 
+    text-align:center;
+    margin: 30px;
+    font-size: 30px;
+padding: 5px;
+} 
+.child img{ 
+    float: left ;
+    margin: 00px; 
+    width:600px;
+}
+.chil{ 
+    text-align: right;
+    margin: 100px;
+    font-size: 30px;
+padding: 5px;
+} 
+.boy{ 
+    margin: 60px auto;
+    width: 100%; 
+    max-width: 750px;
+}
+.girl{
+    text-align: center;
+    font-size: 50px;
+}
+.boy li{ 
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.boy li label{ 
+    display:flex; 
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500; 
+    background: #303030;
+    margin-bottom:2px ; 
+    cursor: pointer;
+    position: relative;
+}.eml{
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+
+}.eml input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}.eml button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+label::after{ 
+    content: '+';
+    font-size: 34px;
+    position:absolute;
+    right: 20px;
+}
+input[type="radio"]{ 
+    display:none; 
+    
+    overflow: hidden;
+}
+.boy .container{ 
+    background: #303030;
+    text-align:left;
+    padding:0 20px;
+    max-height: 0;
+    overflow: hidden;
+    
+    transition:max-height 0.5s,padding 0.5s;
+}
+.container p{ 
+    font-size: medium;
+}
+.girl .eml{
+    max-width: 600px;
+    margin: 20px auto 60px;
+    
+}.girl small{
+    font-size: 20px;
+    
+}
+.boy input[type="radio"]:checked+label+.container{ 
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    
+justify-items: row;
+
+}.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}.footer .col a{display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin: bottom 10px;
+    padding:15px;
+
+}.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+    flex:wrap ;
+
+}.footer .button1{
+    color: white;
+    padding:10px 20px;
+    border-radius: 3px;
+}.copyright-txt{font-size: 14px;
+margin-top: 20px;
+margin-bottom: 10px;}
+/* .footer{
+    align-items: center;
+} */
